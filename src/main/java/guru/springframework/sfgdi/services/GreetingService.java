@@ -1,7 +1,7 @@
 package guru.springframework.sfgdi.services;
 
 /**
- * Created by gd on 6/16/2023
+ * Created by jt on 12/26/19.
  */
 public interface GreetingService {
 

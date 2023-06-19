@@ -4,11 +4,11 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by gd on 6/19/2023
+ * Created by jt on 12/27/19.
  */
 @Primary
 @Service
-public class PrimaryGreetingService implements GreetingService{
+public class PrimaryGreetingService implements GreetingService {
 
     @Override
     public String sayGreeting() {

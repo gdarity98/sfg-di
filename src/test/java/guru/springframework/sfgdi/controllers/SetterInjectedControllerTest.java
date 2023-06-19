@@ -4,9 +4,6 @@ import guru.springframework.sfgdi.services.ConstructorGreetingService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-/**
- * Created by gd on 6/16/2023
- */
 class SetterInjectedControllerTest {
 
     SetterInjectedController controller;
@@ -20,5 +17,6 @@ class SetterInjectedControllerTest {
     @Test
     void getGreeting() {
         System.out.println(controller.getGreeting());
+
     }
 }

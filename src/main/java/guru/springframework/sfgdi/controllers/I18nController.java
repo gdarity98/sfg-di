@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 
 /**
- * Created by gd on 6/19/2023
+ * Created by jt on 12/27/19.
  */
 @Controller
 public class I18nController {
@@ -19,5 +19,4 @@ public class I18nController {
     public String sayHello(){
         return greetingService.sayGreeting();
     }
-
 }

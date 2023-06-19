@@ -3,7 +3,7 @@ package guru.springframework.sfgdi.services;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by gd on 6/16/2023
+ * Created by jt on 12/27/19.
  */
 @Service
 public class SetterInjectedGreetingService implements GreetingService{
